@@ -84,7 +84,7 @@ document.querySelector("#mute").addEventListener("click", function() {
 	if (!video.muted){
 
 		video.muted = true;
-		document.querySelector("#mute").innerHTML="unmute";
+		document.querySelector("#mute").innerHTML="Unmute";
 		console.log("Video is muted");
 
 	}
@@ -92,7 +92,7 @@ document.querySelector("#mute").addEventListener("click", function() {
 	else{
 
 		video.muted = false;
-		document.querySelector("#mute").innerHTML="mute";
+		document.querySelector("#mute").innerHTML="Mute";
 		console.log("Video is unmuted");
 
 	}
